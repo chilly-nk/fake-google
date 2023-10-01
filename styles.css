@@ -20,18 +20,19 @@ table, td {
     margin-left: auto;
 }
 
-#google_logo {
-    /* text-align: center;  */
-    /* margin-top: 10px; */
-    height: 92px;
-}
-
 .search_container {
     max-width: 575px;
     margin: auto;
     text-align: center;
     /* background-color: aliceblue; */
     /* border: 1px solid grey; */
+}
+
+#google_logo {
+    /* text-align: center;  */
+    /* margin-top: 10px; */
+    /* height: 92px; */
+    width: 47%;
 }
 
 #search_bar {
