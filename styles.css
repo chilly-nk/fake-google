@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 10px; */
+}
+
+#top-container { 
+    text-align: right;
+    margin: 15px;
+    font-size: 14px;
+}
+
+table, td {
+    border: 1px solid rgba(128, 128, 128, 0.436);
+    border-collapse: collapse;
+    padding: 5px;
+    margin-left: auto;
+}
+
+#google_logo {
+    /* text-align: center;  */
+    /* margin-top: 10px; */
+    height: 92px;
+}
+
+.search_container {
+    max-width: 575px;
+    margin: auto;
+    text-align: center;
+    /* background-color: aliceblue; */
+    /* border: 1px solid grey; */
+}
+
+#search_bar {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    height: 47px;
+    font-size: 16px;
+    /* margin: 0; */
+    margin-top: 24px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 0.05);
+    color: rgb(70, 70, 70);
+    border: 0.5px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  button:hover {
+    border: 0.5px solid rgba(97, 97, 97, 0.32);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.15);
+  }
+
+/* button {
+    margin: 10px;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    radius: 4px;
+    color: rgba(128, 128, 128, 0.308);
+}
+
+button:hover {
+    margin: 10px;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    radius: 4px;
+} */
