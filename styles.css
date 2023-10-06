@@ -47,6 +47,11 @@ table, td {
     padding-left: 20px;
 }
 
+#search_bar:hover, #search_bar:focus {
+    box-shadow: 0 1.5px 6px 1px rgba(0,0,0,0.15);
+    outline: none;
+}
+
 button {
     background-color: rgba(128, 128, 128, 0.05);
     color: rgb(70, 70, 70);
@@ -54,18 +59,20 @@ button {
     border-radius: 4px;
     font-size: 14px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 17px;
     padding-right: 17px;
     margin-top: 12px;
     margin-left: 3px;
     margin-right: 3px;
+    cursor: pointer;
   }
 
   button:hover {
-    border: 0.5px solid rgba(97, 97, 97, 0.32);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.15);
+    border: 0.2px solid rgba(97, 97, 97, 0.242);
+    box-shadow: 0 1px 1px 0 rgba(97, 97, 97, 0.242);
+    transition-duration: 0.05s;
   }
 
 /* button {
