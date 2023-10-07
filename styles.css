@@ -124,19 +124,6 @@ button {
     transition-duration: 0.05s;
   }
 
-/* button {
-    margin: 10px;
-    width: 120px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    radius: 4px;
-    color: rgba(128, 128, 128, 0.308);
+#image_search_button {
+    visibility: hidden;
 }
-
-button:hover {
-    margin: 10px;
-    width: 120px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    radius: 4px;
-} */
