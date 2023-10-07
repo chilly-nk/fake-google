@@ -28,7 +28,10 @@
     
     <div class="search_container">
         <form action="https://www.google.com/search">  <!-- "action" tells the browser that the data should be sent to that server / address-->
-            <input id="search_bar" type="text" name="q">
+            <div class="search-bar-container">
+                <img id="search-icon" src="search-icon.png">
+                <input id="search_bar" type="text" name="q">
+            </div>
             <input type="hidden" name="tbm" value="isch">
             <div id="search_buttons">
                 <button id="image_search_button" type="submit">Search Images</button>
