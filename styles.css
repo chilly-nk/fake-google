@@ -14,10 +14,25 @@ body {
 }
 
 table, td {
-    border: 1px solid rgba(128, 128, 128, 0.436);
+    /* border: 1px solid rgba(128, 128, 128, 0.436); */
     border-collapse: collapse;
     padding: 5px;
     margin-left: auto;
+}
+
+#top-container a {
+    text-decoration: none;
+    color: black;
+}
+
+#top-container a:after {
+    text-decoration: none;
+    color: black;
+}
+
+#top-container a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 .logo_container {
