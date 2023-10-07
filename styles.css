@@ -20,19 +20,68 @@ table, td {
     margin-left: auto;
 }
 
+.logo_container {
+    max-width: 575px;
+    text-align: center;
+    margin: auto;
+    background-color: orange;
+}
+
+.logo_space {
+    /* text-align: center;  */
+    /* margin-top: 10px; */
+    /* height: 92px; */
+    position: relative;
+    width: 47%;
+    background-color: white;
+    margin: auto;
+    /* display: flex; */
+}
+
+.logo_image {
+    width: 100%;
+}
+
+#logo_text {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 145, 255);
+}
+
+@media (max-width: 575px) {
+    #logo_text {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 525px) {
+    #logo_text {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 475px) {
+    #logo_text {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    #logo_text {
+        font-size: 60%;
+    }
+}
+
 .search_container {
     max-width: 575px;
     margin: auto;
     text-align: center;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     /* border: 1px solid grey; */
-}
-
-#google_logo {
-    /* text-align: center;  */
-    /* margin-top: 10px; */
-    /* height: 92px; */
-    width: 47%;
 }
 
 #search_bar {
