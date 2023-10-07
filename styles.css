@@ -95,8 +95,22 @@ table, td {
     max-width: 575px;
     margin: auto;
     text-align: center;
-    /* background-color: aliceblue; */
+    /* background-color: rgb(255, 153, 0); */
     /* border: 1px solid grey; */
+}
+
+.search-bar-container {
+    position: relative;
+    /* background-color: rgb(2, 253, 253); */
+    width: 100%;
+    display: flex;
+}
+
+#search-icon {
+    position: absolute;
+    top: 41px;
+    left: 15px;
+    width: 2.5%;
 }
 
 #search_bar {
@@ -108,7 +122,7 @@ table, td {
     /* margin: 0; */
     margin-top: 24px;
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 43px;
 }
 
 #search_bar:hover, #search_bar:focus {
