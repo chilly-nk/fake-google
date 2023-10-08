@@ -10,6 +10,7 @@ body {
 #top-container { 
     text-align: right;
     margin: 15px;
+    margin-bottom: 20px;
     font-size: 14px;
 }
 
@@ -36,7 +37,7 @@ table, td {
 }
 
 .logo_container {
-    max-width: 575px;
+    max-width: 583px;
     text-align: center;
     margin: auto;
     /* background-color: orange; */
@@ -67,7 +68,7 @@ table, td {
     color: rgb(0, 132, 255);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 583px) {
     #logo_text {
         font-size: 90%;
     }
@@ -92,7 +93,7 @@ table, td {
 }
 
 .search_container {
-    max-width: 575px;
+    max-width: 583px;
     margin: auto;
     text-align: center;
     /* background-color: rgb(255, 153, 0); */
@@ -109,8 +110,15 @@ table, td {
 #search-icon {
     position: absolute;
     top: 41px;
-    left: 15px;
+    left: 17px;
     width: 2.5%;
+}
+
+#lens-icon  {
+    position: absolute;
+    top: 31px;
+    right: 13px;
+    width: 5.5%;
 }
 
 #search_bar {
