@@ -240,7 +240,7 @@ button {
     display: flex;
     height: 42px;
     /* background-color: aliceblue; */
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 #form-heading-1 {
@@ -265,7 +265,7 @@ button {
     width: 16%;
     color: #222;
     font-size: 13px;
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
 }
 
 .form-col-2 {
@@ -275,24 +275,30 @@ button {
 }
 
 .form-col-3 {
-    float: left;
-    display: grid;
-    /* display: table-cell; */
-    align-items: center;
-    /* white-space: nowrap; */
-    /* word-break: break-all; */
-    
+    display: table;
     
     color: #555;
     font-size: 11px;
     padding-left: 16px;
-    /* position: relative; */
 
     width: 32%;
     min-width: 160px;
     height: 30px;
 
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
+}
+
+.form-col-3-td {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.examples {
+    font-family: monospace;
+    font-size: 11px;
+    color: #667;
+    white-space: collapse;
+    text-wrap: wrap;
 }
 
 .form-row input {
@@ -302,12 +308,4 @@ button {
     font-size: 13px;
     border: 1px solid #d9d9d9;
     border-radius: 1px;
-}
-
-.examples {
-    font-family: monospace;
-    font-size: 11px;
-    color: #667;
-    white-space: collapse;
-    text-wrap: wrap;
 }
